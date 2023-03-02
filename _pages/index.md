@@ -5,29 +5,18 @@ id: home
 permalink: /
 ---
 
-# Welcome! 🌱
+$$ 🙏 Welcome 🙏 $$
+---
 
-<p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
-</p>
 
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
 
-The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
+Welcome to my Digital Garden. Though Social Media is everywhere and it's easy to share content these days, the idea of a [🍃Digital Garden](https://maggieappleton.com/garden-history) is appealing.
 
-<strong>Recently updated notes</strong>
+In a garden, growth is organic and non linear as opposed to a website or even social media platforms. Just as in the presentation, the growth of ideas is similarly organic. Ideas are like 🌱 shoots; they can then become something more substantial like a 🌿 plant or wither away. In the the fullness of time, it can become permanent like a 🌳 tree.
 
-<ul>
-  {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
-  {% for note in recent_notes | limit: 5 %}
-    <li>
-      {{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ note.url }}">{{ note.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+Visitors to the Garden, can similarly make their way around the garden from branch to branch or nibble at 🍇 fruits as they like.
 
-<style>
-  .wrapper {
-    max-width: 46em;
-  }
-</style>
+I have only just started planting!
+
+There is a navigation tree on the left and a graph view on the right which will grow organically as ideas intermingle and connections are established.
+You can also use the search facility to look at specific terms if you like.
